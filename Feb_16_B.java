@@ -12,7 +12,6 @@ public class Feb_16_B{
         StringBuilder sb = new StringBuilder();
         mainLoop:
         while(testCase-->0){
-//            System.out.println("t = "+testCase);
             StringTokenizer st = new StringTokenizer(br.readLine());
             int n = Integer.parseInt(st.nextToken());
             int k = Integer.parseInt(st.nextToken());
@@ -33,7 +32,6 @@ public class Feb_16_B{
             boolean[] visitedSeg = new boolean[n];
             subLoop:
             while(true){
-//                System.out.println(Arrays.toString(counts));
                 boolean isResult = true;
                 int maxId = -1;
                 int pointValue = counts[k];
